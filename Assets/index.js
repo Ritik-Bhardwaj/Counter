@@ -8,7 +8,7 @@ function startCounter() {
   // If user clicks on 'Start Counter' button again - remove this function and below 2 lines if you don't consider this situation
   resetNumbers(currentNo, nextNo);
 
-  if (number < 1 || number > 9) {
+  if (number < 1 || number > 100) {
     clearInterval(countInterval);
     return;
   }
